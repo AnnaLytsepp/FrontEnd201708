@@ -5,7 +5,7 @@
         "pretty": true,
         "diagnostics": true,
         /*"outFile": "comp.js",*/
-
+        
         "noFallthroughCasesInSwitch": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,

@@ -52,8 +52,8 @@ class EventPage extends Page {
             const element = (e.target as Element).parentElement;
             const parent = element.parentElement;
             const index = Array.prototype.indexOf.call(parent.children, element);
-            this._participant.splice(index, 1); // see kustutab HTML-s
-            localStorage.setItem('people', JSON.stringify(this._participant));
+            this._participant.splice(index, 1); // see kututab HTMLs
+            localStorage.setItem('people', JSON.stringify(this._participant)); // see kustutab andmebaasis
             this._render();
         }
     }
