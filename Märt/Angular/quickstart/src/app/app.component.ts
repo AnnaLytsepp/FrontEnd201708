@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-export class Person {
+export class Person{
   id: number;
   name: string;
 }
@@ -11,18 +11,17 @@ const PEOPLE: Person[] = [
   { id: 105, name: 'Anna'},
 ];
 @Component({
-  moduleId: module.id,
   selector: 'my-app',
-  templateUrl: './../templates/people.html',
+  templateUrl: 'templates/people.html',
 })
-export class AppComponent  {
+export class AppComponent  { 
   name = 'Angular 4';
   alapealkiri = 'Alapealkiri';
-  person: Person = {
+  person: Person ={
     id: 1,
     name: 'Juku'
   };
   selectedPerson: Person;
 
-
+  
 };

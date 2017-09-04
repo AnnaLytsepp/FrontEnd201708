@@ -13,11 +13,12 @@ var Person = (function () {
 }());
 exports.Person = Person;
 var PEOPLE = [
-    { id: 101, name: 'Juku' },
-    { id: 102, name: 'Malle' },
-    { id: 103, name: 'Kalle' },
-    { id: 104, name: 'Märt' },
-    { id: 105, name: 'Anna' },
+    { id: 101, name: 'Taavi' },
+    { id: 102, name: 'Toomas' },
+    { id: 103, name: 'Terje' },
+    { id: 104, name: 'Tiina' },
+    { id: 105, name: 'Anneli' },
+    { id: 106, name: 'Kaspar' }
 ];
 var AppComponent = (function () {
     function AppComponent() {
@@ -25,18 +26,16 @@ var AppComponent = (function () {
         this.alapealkiri = 'Alapealkiri';
         this.person = {
             id: 1,
-            name: 'Juku'
+            name: 'Joonas'
         };
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
-        moduleId: module.id,
         selector: 'my-app',
-        templateUrl: './../templates/people.html',
+        templateUrl: 'templates/people.html',
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
-;
 //# sourceMappingURL=app.component.js.map
